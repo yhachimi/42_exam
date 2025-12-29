@@ -4,8 +4,8 @@ void sort_int_tab(int *tab, unsigned int size)
 	int	tmp;
 	unsigned int	j;
 
-	i = 0;	
-	while (i < size)
+	i = 0;
+	while (i < size - 1)
 	{
 		j = i + 1;
 		while (j < size)
@@ -25,8 +25,8 @@ void sort_int_tab(int *tab, unsigned int size)
 #include "stdio.h"
 int main(void)
 {
-    int tab[] = {4, 3, 2, 0, 1};
-    unsigned int size = 5;
+    int tab[] = {10,9,8,7,6,5,4,3,2,1,0};
+    unsigned int size = 11;
     unsigned int i;
 
     i = 0;
